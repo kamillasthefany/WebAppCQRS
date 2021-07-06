@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppCQRS", "WebAppCQRS\WebAppCQRS.csproj", "{4C9ED487-4115-4DBA-950C-99307CE22771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Read", "Read", "{A29F1105-F404-4075-A6B1-88EA3A48D506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Write", "Write", "{980B5713-9DC6-410A-9D89-472C54A27E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS_Read_Infra", "CQRS_Read_Infra\CQRS_Read_Infra.csproj", "{55CBB7F4-476B-4FFE-B603-B500BF291843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS_Read_Application", "CQRS_Read_Application\CQRS_Read_Application.csproj", "{3C66B562-443A-42EB-8B7B-C711C15FD223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C9ED487-4115-4DBA-950C-99307CE22771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9ED487-4115-4DBA-950C-99307CE22771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9ED487-4115-4DBA-950C-99307CE22771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9ED487-4115-4DBA-950C-99307CE22771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CBB7F4-476B-4FFE-B603-B500BF291843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CBB7F4-476B-4FFE-B603-B500BF291843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CBB7F4-476B-4FFE-B603-B500BF291843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CBB7F4-476B-4FFE-B603-B500BF291843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C66B562-443A-42EB-8B7B-C711C15FD223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C66B562-443A-42EB-8B7B-C711C15FD223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C66B562-443A-42EB-8B7B-C711C15FD223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C66B562-443A-42EB-8B7B-C711C15FD223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55CBB7F4-476B-4FFE-B603-B500BF291843} = {A29F1105-F404-4075-A6B1-88EA3A48D506}
+		{3C66B562-443A-42EB-8B7B-C711C15FD223} = {A29F1105-F404-4075-A6B1-88EA3A48D506}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA0A5BD-04B7-4CD8-B319-48045CBE637B}
+	EndGlobalSection
+EndGlobal
